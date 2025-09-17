@@ -1,6 +1,7 @@
 # build output
 dist/
 .output/
+.vercel/
 
 # dependencies
 node_modules/
@@ -10,16 +11,57 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
+logs/
+*.log
 
+# IDE and editor folders
+.vscode/
+.zed/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+*.sublime-project
 
 # environment variables
 .env
+.env.*
+!.env.example
+.env.local
 .env.production
+.env.development
 
 # macOS-specific files
 .DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+
+# security and sensitive files
+*.pem
+*.key
+*.cert
+*.crt
+*.p12
+*.pfx
+secrets/
+config/secrets.*
 
 # misc
-*.pem
 .cache
 .astro
+.temp/
+.tmp/
+coverage/
+.nyc_output/
+
+# package manager locks (uncomment if you want to ignore them)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
