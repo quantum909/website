@@ -23,5 +23,9 @@ pnpm-debug.log*
 # jetbrains setting folder
 .idea/
 
+# AI
+WARP.md
+CLAUDE.md
+
 # pagefind
 public/pagefind
